@@ -1,8 +1,7 @@
-n=input("enter the range number")
-print("factorial number:")
-i=1
+n=input("enter a number")
 f=1
-while(i<=n):
-    f=f*i
-    i=i+1
-print(f)
+a=1
+while(a<=n):
+    f=f*a
+    a=a+1
+print "factorial of number is",f
